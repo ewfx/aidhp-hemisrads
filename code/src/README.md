@@ -1,3 +1,2 @@
-## Delete this file
-
-Instead place your source files here
+Technology - Dot Net Core
+3.1, EF Core, HTML and Database Sql Server
