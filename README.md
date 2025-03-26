@@ -16,13 +16,6 @@
 ## 🎯 Introduction
 A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
 
-## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
-
-![Screenshot 1](link-to-image)
-
 ## 💡 Inspiration
 What inspired you to create this project? Describe the problem you're solving.
 
@@ -50,11 +43,11 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
-
+- 🔹 Frontend: HTML, Jquery
+- 🔹 Backend: Dotnet Core MVC
+- 🔹 Database: SqlServer, EntityFramework
+- 🔹 Other: Microsoft.Extensions.AI
+  
 ## 👥 Team
 - **HEMIS-RADS**
-- Team Members:
+- Team Members: 
