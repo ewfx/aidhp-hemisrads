@@ -57,4 +57,3 @@ Describe the major technical or non-technical challenges your team encountered.
 
 ## 👥 Team
 - **HEMIS-RADS**
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
