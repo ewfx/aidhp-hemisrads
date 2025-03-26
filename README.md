@@ -38,28 +38,35 @@ Binding recommendations
    ```sh
    Dot Net Core 3.1(.Net framework) and Sql Server
    ```
-2. Setup
-   ```sh
+3. Setup
+
  Steps to create the database and tables:
-1) Go to SqlServer Management Studio.Connect to local DB ( using . or localhost)
-2) Create a database with name "test_ECommerceDB"
-3) Go to Visual Studio Menu >> Tools >> NuGet Package Manager >> Package Manager Console and run below commands:
+a. Go to SqlServer Management Studio.Connect to local DB ( using . or localhost)
+b. Create a database with name "test_ECommerceDB"
+c. Go to Visual Studio Menu >> Tools >> NuGet Package Manager >> Package Manager Console and run below commands:
  Update-Database -Context ECommerceDbContext
 
  Database will be created with tables and data will be inserted in the tables.
-   ```
-3. Run the project  
-   ```sh
-    1) Open the solution "HemisRadsShoppingCart.sln" in Visual 
- 2) Right click on the solution and click on "Restore NuGet Packages"
- 3) Right click on the solution and click on "Build Solution"
- 4) Right click on the project "HemisRadsShoppingCart" and click on "Set as StartUp Project"
- 5) Press F5 to run the application
+   
+4. Run the project  
+   
+a. Open the solution "HemisRadsShoppingCart.sln" in Visual
 
-or
+b. Right click on the solution and click on "Restore NuGet Packages"
+
+c. Right click on the solution and click on "Build Solution"
+
+d. Right click on the project "HemisRadsShoppingCart" and click on "Set as StartUp Project"
+
+e. Press F5 to run the application
+
+(or) 
+
 in command prompt(go the downloaded path where solution file exists), use below command
 
+```sh
 dotnet run
+
 ```
 
 ## 🏗️ Tech Stack
