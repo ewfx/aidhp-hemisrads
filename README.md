@@ -23,24 +23,44 @@ What inspired you to create this project? Describe the problem you're solving.
 Explain the key features and functionalities of your project.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+We have used EF Core code first approach here.
+We used dot net core with sql sever - entity framework. 
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+Binding recommendations
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/aidhp-hemisrads.git
    ```
-2. Install dependencies  
+2. Pre-requisites
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   Dot Net Core 3.1(.Net framework) and Sql Server
+   ```
+2. Setup
+   ```sh
+ Steps to create the database and tables:
+1) Go to SqlServer Management Studio.Connect to local DB ( using . or localhost)
+2) Create a database with name "test_ECommerceDB"
+3) Go to Visual Studio Menu >> Tools >> NuGet Package Manager >> Package Manager Console and run below commands:
+ Update-Database -Context ECommerceDbContext
+
+ Database will be created with tables and data will be inserted in the tables.
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
-   ```
+    1) Open the solution "HemisRadsShoppingCart.sln" in Visual 
+ 2) Right click on the solution and click on "Restore NuGet Packages"
+ 3) Right click on the solution and click on "Build Solution"
+ 4) Right click on the project "HemisRadsShoppingCart" and click on "Set as StartUp Project"
+ 5) Press F5 to run the application
+
+or
+in command prompt(go the downloaded path where solution file exists), use below command
+
+dotnet run
+```
 
 ## 🏗️ Tech Stack
 - 🔹 Frontend: HTML, Jquery
@@ -50,4 +70,8 @@ Describe the major technical or non-technical challenges your team encountered.
   
 ## 👥 Team
 - **HEMIS-RADS**
-- Team Members: 
+- Team Members:
+  Ranjith Kumar P
+  Vellanki Sai
+  Dibyajyoti Dev
+  Avinash Shivaram K
