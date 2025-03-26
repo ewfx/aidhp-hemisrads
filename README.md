@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 AI-Driven Hyper Personalization & Recommendations 
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -14,13 +14,38 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Welcome to the world of AI-driven hyper-personalization, where technology meets individuality. In today's digital landscape, users expect experiences tailored to their unique preferences and interests. AI-driven hyper-personalization makes this possible, using machine learning algorithms to analyze user behavior and provide relevant, real-time recommendations. From content and product suggestions to customer service and health advice, the applications of AI-driven hyper-personalization are vast and growing. Let's explore the possibilities and potential of this exciting technology.
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+Here are some inspirational ideas:
+
+People
+1. *Elon Musk*: A pioneer in AI and technology, inspiring innovation and pushing boundaries.
+2. *Andrew Ng*: A leading AI expert, advocating for AI's potential to improve lives.
+3. *Fei-Fei Li*: A renowned AI researcher, driving AI advancements and promoting diversity.
+
+Quotes
+1. *"AI is the new electricity."* - Andrew Ng
+2. *"The future of AI is not about replacing humans, but augmenting them."* - Fei-Fei Li
+3. *"The best way to predict the future is to invent it."* - Alan Kay
+
+Books
+1. *"Life 3.0: Being Human in the Age of Artificial Intelligence"* by Max Tegmark
+2. *"Deep Learning"* by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
+3. *"The Singularity Is Near"* by Ray Kurzweil
+
+TED Talks
+1. *"The future of learning"* by Fei-Fei Li
+2. *"How AI is changing the world"* by Andrew Ng
+3. *"The thrilling potential of Sixth-Grade Science"* by Cynthia Breazeal
+
+Podcasts
+1. *The AI Alignment Podcast*
+2. *The Data Science Podcast*
+3. *The AI in Industry Podcast*
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+Provides recommendations for shopping on site cart on basis of social activities, sentiments, search, user information
 
 ## 🛠️ How We Built It
 We have used EF Core code first approach here.
